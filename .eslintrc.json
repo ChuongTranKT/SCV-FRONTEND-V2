@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "extends": ["next", "prettier","eslint:recommended"],
+  "plugins": ["react"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+},
+  "overrides": [
+    {
+      "files": ["*.js"]
+    }
+  ]
+}
